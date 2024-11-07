@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background: black;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    background-image:url('../images/69e210_1b436405f20d409e82d069a56521b447~mv2.webp') ;
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: left center;
+}
+.overlay{
+    background: linear-gradient(180deg,rgba(191,191,191,0),rgba(255,255,255,0.55)) !important;
+}
+
+.button {
+    position: absolute;
+    height: 258px;
+    max-width: 917px;
+    border: 1px solid rgb(230, 199, 235);
+    width: 100%;
+    z-index: 9;
+    border-radius: 100px;
+    background-color: rgb(230, 199, 235);
+    top: 20px;
+    font-size: 66px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Centers the button horizontally */
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.P4my70  {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.baZw44 {
+    height: 20px;
+    margin: auto;
+    position: relative;
+    width: 22px;
+}
+.T8_LA1 {
+    background-color: white;
+    border-radius: 2px;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: all .25s ease-in-out;
+    width: 100%;
+}
+.dbDvn7, .iu4m2t {
+    bottom: 0;
+}
+.dbDvn7 {
+    margin: auto;
+    top: 0;
+}
