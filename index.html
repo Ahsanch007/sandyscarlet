@@ -41,15 +41,19 @@
 
             <div class="location-info text-white">
 
-                <div class="current-location text-[25px] text-center text-white flex justify-center">
+                <div class="current-location hidden text-[25px] text-center text-white   justify-center">
                     <img class="location-icon" src="./assets/images/location-icon.svg" alt="">
                     <span id="location-name"></span>
                 </div>
             </div>
-            <div class="flex lg:hidden justify-center pt-3">
+            <div class="flex lg:hidden flex-col gap-2 items-center justify-center pt-3">
                 <a href="https://onlyfans.com/sandyscarlett/c3" target="_blank"
                     class="text-black text-[26px] font-bold bg-[#e6c7eb] rounded-[100px] py-1 px-1">
-                    Book Me Here
+                    Chat here
+                </a>
+                <a href="./404.html" target="_blank"
+                    class="text-black text-[26px] font-bold bg-[#e6c7eb] rounded-[100px] py-1 px-1">
+                    Book me here
                 </a>
             </div>
             <div id="time-in-current-location">
@@ -95,7 +99,15 @@
 
                     <button class="button hidden lg:block">
                         <span>
-                            Book Me Here
+                            Chat here
+                        </span>
+                    </button>
+                </a>
+                <a href="./404.html" target="_blank">
+
+                    <button class="button2 hidden lg:block">
+                        <span>
+                            Book me here
                         </span>
                     </button>
                 </a>
@@ -171,7 +183,7 @@
 
 
     <!-- Full-Screen Modal -->
-    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 flex justify-center items-center hidden">
+    <div id="imageModal" class="fixed inset-0 z-[9] bg-black bg-opacity-90 flex justify-center items-center hidden">
         <button class="absolute top-5 right-5 text-white text-3xl cursor-pointer" onclick="closeModal()">✕</button>
         <button class="absolute left-5 text-white text-3xl cursor-pointer" onclick="prevImage()">❮</button>
         <img id="modalImage" class="max-w-full max-h-[400px] object-contain" src="">

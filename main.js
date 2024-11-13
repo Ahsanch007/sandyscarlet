@@ -3,8 +3,7 @@ const setLocationPeriod = (city, country) => {
     const locationPeriod = document.getElementById('time-in-current-location');
     const locationName = document.getElementById('location-name');
     locationName.textContent = `${city}, ${country}`;
-    locationPeriod.innerHTML = `I’m staying in ${city.toLowerCase()} and looking for someone to have fun with! 👀 
-    <br/> Send me a 😈 in my DMs and let’s chat
+    locationPeriod.innerHTML = `Hey! Welcome to my website I can't wait to have some fun together 🥰
     `;
   };
   
